@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="tests">
+
+    <listeners>
+        <listener class-name="com.listeners.TestListener"/>
+    </listeners>
+    <test name="iOS Test">
+        <parameter name="platformName" value="ios"/>
+        <parameter name="udid" value="1362976800000L7"/>
+        <parameter name="deviceName" value="1362976800000L7"/>
+        <parameter name="wdaLocalPort" value="10001"/>
+        <parameter name="webkitDebugProxyPort" value="11001"/>
+        <classes>
+            <class name="com.qa.tests.LoginTests"/>
+        </classes>
+    </test>
+
+</suite>

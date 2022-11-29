@@ -1,0 +1,56 @@
+2022-11-23 16:23:58:556 [Appium] Welcome to Appium v1.22.3
+2022-11-23 16:23:58:558 [Appium] Non-default server args:
+2022-11-23 16:23:58:558 [Appium]   sessionOverride: true
+2022-11-23 16:23:58:559 [Appium]   logFile: C:\Users\Praveen_Eruvanti\Downloads\Praveen\My Projects\HKJC-FOTF\Mobitru\appiumFramework\ServerLogs\server.log
+2022-11-23 16:23:58:590 [Appium] Appium REST http interface listener started on 0.0.0.0:4723
+2022-11-23 16:23:58:821 [HTTP] --> GET /wd/hub/status
+2022-11-23 16:23:58:821 [HTTP] {}
+2022-11-23 16:23:58:823 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2022-11-23 16:23:58:825 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.22.3"}}
+2022-11-23 16:23:58:831 [HTTP] <-- GET /wd/hub/status 200 8 ms - 68
+2022-11-23 16:23:58:832 [HTTP] 
+2022-11-23 16:23:59:868 [HTTP] Request idempotency key: 7719f158-0e5e-475f-842e-e2059bc2372c
+2022-11-23 16:23:59:886 [HTTP] --> POST /wd/hub/session
+2022-11-23 16:23:59:886 [HTTP] {"desiredCapabilities":{"app":"C:\\Users\\Praveen_Eruvanti\\Downloads\\Praveen\\My Projects\\HKJC-FOTF\\Mobitru\\appiumFramework/src/test/resources/app/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk","appActivity":"com.swaglabsmobileapp.SplashActivity","appPackage":"com.swaglabsmobileapp","automationName":"UIAutomator2","chromeDriverPort":"11000","platformName":"Android","udid":"1362976800000L7","deviceName":"1362976800000L7","systemPort":"10000"},"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\Praveen_Eruvanti\\Downloads\\Praveen\\My Projects\\HKJC-FOTF\\Mobitru\\appiumFramework/src/test/resources/app/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk","appium:appActivity":"com.swaglabsmobileapp.SplashActivity","appium:appPackage":"com.swaglabsmobileapp","appium:automationName":"UIAutomator2","chromeDriverPort":"11000","appium:deviceName":"1362976800000L7","platformName":"android","appium:systemPort":"10000","appium:udid":"1362976800000L7"}]}}
+2022-11-23 16:23:59:887 [W3C] Calling AppiumDriver.createSession() with args: [{"app":"C:\\Users\\Praveen_Eruvanti\\Downloads\\Praveen\\My Projects\\HKJC-FOTF\\Mobitru\\appiumFramework/src/test/resources/app/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk","appActivity":"com.swaglabsmobileapp.SplashActivity","appPackage":"com.swaglabsmobileapp","automationName":"UIAutomator2","chromeDriverPort":"11000","platformName":"Android","udid":"1362976800000L7","deviceName":"1362976800000L7","systemPort":"10000"},null,{"firstMatch":[{"appium:app":"C:\\Users\\Praveen_Eruvanti\\Downloads\\Praveen\\My Projects\\HKJC-FOTF\\Mobitru\\appiumFramework/src/test/resources/app/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk","appium:appActivity":"com.swaglabsmobileapp.SplashActivity","appium:appPackage":"com.swaglabsmobileapp","appium:automationName":"UIAutomator2","chromeDriverPort":"11000","appium:deviceName":"1362976800000L7","platformName":"android","appium:systemPort":"10000","appium:udid":"1362976800000L7"}]}]
+2022-11-23 16:23:59:888 [BaseDriver] Event 'newSessionRequested' logged at 1669220639887 (21:53:59 GMT+0530 (India Standard Time))
+2022-11-23 16:23:59:892 [BaseDriver] The following capabilities are not standard capabilities and should have an extension prefix:
+2022-11-23 16:23:59:893 [BaseDriver]   chromeDriverPort
+2022-11-23 16:24:00:243 [Appium] Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
+2022-11-23 16:24:00:244 [Appium] There are no active sessions for cleanup
+2022-11-23 16:24:00:247 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2022-11-23 16:24:00:247 [BaseDriver] Creating session with W3C capabilities: {
+2022-11-23 16:24:00:248 [BaseDriver]   "alwaysMatch": {
+2022-11-23 16:24:00:248 [BaseDriver]     "appium:chromeDriverPort": "11000",
+2022-11-23 16:24:00:248 [BaseDriver]     "platformName": "android",
+2022-11-23 16:24:00:248 [BaseDriver]     "appium:app": "C:\\Users\\Praveen_Eruvanti\\Downloads\\Praveen\\My Projects\\HKJC-FOTF\\Mobitru\\appiumFramework/src/test/resources/app/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk",
+2022-11-23 16:24:00:248 [BaseDriver]     "appium:appActivity": "com.swaglabsmobileapp.SplashActivity",
+2022-11-23 16:24:00:249 [BaseDriver]     "appium:appPackage": "com.swaglabsmobileapp",
+2022-11-23 16:24:00:249 [BaseDriver]     "appium:automationName": "UIAutomator2",
+2022-11-23 16:24:00:249 [BaseDriver]     "appium:deviceName": "1362976800000L7",
+2022-11-23 16:24:00:249 [BaseDriver]     "appium:systemPort": "10000",
+2022-11-23 16:24:00:249 [BaseDriver]     "appium:udid": "1362976800000L7"
+2022-11-23 16:24:00:249 [BaseDriver]   },
+2022-11-23 16:24:00:249 [BaseDriver]   "firstMatch": [
+2022-11-23 16:24:00:250 [BaseDriver]     {}
+2022-11-23 16:24:00:250 [BaseDriver]   ]
+2022-11-23 16:24:00:250 [BaseDriver] }
+2022-11-23 16:24:00:253 [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+2022-11-23 16:24:00:253 [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+2022-11-23 16:24:00:258 [BaseDriver] Capability 'systemPort' changed from string ('10000') to integer (10000). This may cause unexpected behavior
+2022-11-23 16:24:00:258 [BaseDriver] Capability 'chromeDriverPort' changed from string ('11000') to integer (11000). This may cause unexpected behavior
+2022-11-23 16:24:00:261 [BaseDriver] Session created with session id: 329d9003-86d5-41f9-837d-a8f8cb700615
+2022-11-23 16:24:00:266 [BaseDriver] Using local app 'C:\Users\Praveen_Eruvanti\Downloads\Praveen\My Projects\HKJC-FOTF\Mobitru\appiumFramework/src/test/resources/app/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk'
+2022-11-23 16:24:00:267 [UiAutomator2] Checking whether app is actually present
+2022-11-23 16:24:00:272 [UiAutomator2] Deleting UiAutomator2 session
+2022-11-23 16:24:00:274 [BaseDriver] Event 'newSessionStarted' logged at 1669220640274 (21:54:00 GMT+0530 (India Standard Time))
+2022-11-23 16:24:00:374 [W3C] Encountered internal error running command: Error: Neither ANDROID_HOME nor ANDROID_SDK_ROOT environment variable was exported. Read https://developer.android.com/studio/command-line/variables for more details
+2022-11-23 16:24:00:374 [W3C]     at requireSdkRoot (C:\Users\Praveen_Eruvanti\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-adb\lib\helpers.js:36:11)
+2022-11-23 16:24:00:374 [W3C]     at Function.createADB (C:\Users\Praveen_Eruvanti\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-adb\lib\adb.js:57:23)
+2022-11-23 16:24:00:374 [W3C]     at Object.createBaseADB (C:\Users\Praveen_Eruvanti\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-android-driver\lib\android-helpers.js:129:20)
+2022-11-23 16:24:00:374 [W3C]     at Object.getDeviceInfoFromCaps (C:\Users\Praveen_Eruvanti\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-android-driver\lib\android-helpers.js:214:29)
+2022-11-23 16:24:00:374 [W3C]     at AndroidUiautomator2Driver.startUiAutomator2Session (C:\Users\Praveen_Eruvanti\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\driver.js:338:40)
+2022-11-23 16:24:00:375 [W3C]     at AndroidUiautomator2Driver.createSession (C:\Users\Praveen_Eruvanti\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\driver.js:229:18)
+2022-11-23 16:24:00:375 [W3C]     at AppiumDriver.createSession (C:\Users\Praveen_Eruvanti\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\lib\appium.js:387:35)
+2022-11-23 16:24:00:386 [HTTP] <-- POST /wd/hub/session 500 499 ms - 975
+2022-11-23 16:24:00:386 [HTTP] 
