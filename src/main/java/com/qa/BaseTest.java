@@ -96,7 +96,12 @@ public class BaseTest {
     @BeforeSuite
     public void beforeSuite() {
         ThreadContext.put("ROUTING_KEY", "ServerLogs");
-        appiumDriverLocalService = getAppiumDriverLocalServiceCustom();
+        // Uncomment for MAC
+        // appiumDriverLocalService = getAppiumDriverLocalServiceCustom();
+
+        // Uncomment for Windows
+           appiumDriverLocalService = getAppiumDriverLocalServiceDefault();
+        
             appiumDriverLocalService.start();
             appiumDriverLocalService.clearOutPutStreams(); // Server logs to NOT output to console
             log.info("Appium Server Started");
